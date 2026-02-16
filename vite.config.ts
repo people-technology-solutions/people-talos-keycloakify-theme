@@ -3,9 +3,9 @@
 import { defineConfig } from 'vite';
 import angular from '@analogjs/vite-plugin-angular';
 import { keycloakify } from 'keycloakify/vite-plugin';
-import { themeNames } from './src/kc.gen';
 
 // https://vitejs.dev/config/
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default defineConfig(({ mode }) => ({
   build: {
     target: ['es2022'],
