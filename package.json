@@ -1,6 +1,6 @@
 {
-  "name": "keycloakify-starter-angular-vite",
-  "version": "0.0.0",
+  "name": "keycloakify-people-theme",
+  "version": "1.0.0",
   "type": "module",
   "description": "Angular + Vite Starter for Keycloakify 11",
   "repository": {
