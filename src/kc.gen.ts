@@ -9,9 +9,9 @@
 
 import type { ApplicationRef, ComponentRef, EnvironmentProviders, Type } from '@angular/core';
 
-export type ThemeName = 'keycloakify-starter-angular-vite';
+export type ThemeName = 'keycloakify-people';
 
-export const themeNames: ThemeName[] = ['keycloakify-starter-angular-vite'];
+export const themeNames: ThemeName[] = ['keycloakify-people'];
 
 export type KcEnvName = never;
 
