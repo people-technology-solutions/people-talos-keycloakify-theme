@@ -3,6 +3,7 @@ import { UserProfileFormFieldsComponent } from '@keycloakify/angular/login/compo
 import { TemplateComponent } from '@keycloakify/angular/login/template';
 import type { ClassKey } from 'keycloakify/login';
 import type { KcContext } from './KcContext';
+import '../main.css';
 
 export const classes = {} satisfies Partial<Record<ClassKey, string>>;
 export const doUseDefaultCss = true;

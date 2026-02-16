@@ -1,0 +1,21 @@
+body.kcBodyClass {
+  background: white;
+}
+
+div.kc-logo-text {
+  background-image: url(../public/favicon-412x412.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 63px;
+  width: 63px;
+}
+
+.kcFormCardClass.card-pf {
+  background: #b3b3b326;
+  border-color: #e6e5e5;
+  border-radius: 22px;
+  border-style: solid;
+  border-width: 1px !important;
+  color: black;
+}
