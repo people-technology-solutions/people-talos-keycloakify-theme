@@ -39,6 +39,8 @@ div.kc-branding div.kc-branding-text {
 
 @media (max-width: 767px) {
   #kc-header-wrapper {
+    font-size: 1.75rem;
+    font-weight: normal;
     padding: 0;
   }
 }
