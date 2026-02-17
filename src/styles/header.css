@@ -11,6 +11,7 @@ div.kcHeaderWrapperClass {
   text-transform: none;
 }
 
+/* Main header (Contains both logo and text) */
 div.kc-branding {
   align-items: center;
   display: flex;
@@ -31,10 +32,9 @@ div.kc-branding div.kc-branding-text {
   color: black;
 }
 
-@media (min-width: 768px) {
-  .login-pf-page .login-pf-page-header {
-    margin-bottom: 0;
-  }
+/* Header inside the form's card */
+.login-pf-page .login-pf-header h1 {
+  font-size: 1.25rem;
 }
 
 @media (max-width: 767px) {
@@ -42,5 +42,15 @@ div.kc-branding div.kc-branding-text {
     font-size: 1.75rem;
     font-weight: normal;
     padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-pf-page .login-pf-page-header {
+    margin-bottom: 0;
+  }
+
+  .login-pf-page .login-pf-header h1 {
+    font-size: 1.25rem;
   }
 }

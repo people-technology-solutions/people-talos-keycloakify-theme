@@ -1,0 +1,12 @@
+/* Main button */
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 1.875rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.875rem 1.5rem;
+}
+
+/* Main button */
+.pf-c-button.pf-m-primary {
+  background-color: #eb4555;
+}
