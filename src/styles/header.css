@@ -1,0 +1,44 @@
+/*
+ * Swap the `HTML Display name` field to:
+ * `<div class="kc-branding"><div class="kc-branding-logo"></div><div class="kc-branding-text">People</div></div>`
+ */
+
+div.kcHeaderWrapperClass {
+  padding: 0;
+}
+
+#kc-header-wrapper {
+  text-transform: none;
+}
+
+div.kc-branding {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+}
+
+div.kc-branding div.kc-branding-logo {
+  background-image: url(../../public/favicon-412x412.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3.9375rem;
+  width: 3.9375rem;
+}
+
+div.kc-branding div.kc-branding-text {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .login-pf-page .login-pf-page-header {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #kc-header-wrapper {
+    padding: 0;
+  }
+}
