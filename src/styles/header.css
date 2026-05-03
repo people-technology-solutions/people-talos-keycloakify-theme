@@ -20,12 +20,12 @@ div.kc-branding {
 }
 
 div.kc-branding div.kc-branding-logo {
-  background-image: url(../../public/favicon-412x412.png);
+  background-image: url("https://www.aade.gr/sites/default/files/inline-images/logo1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 3.9375rem;
-  width: 3.9375rem;
+  width: 14.25rem;
 }
 
 div.kc-branding div.kc-branding-text {

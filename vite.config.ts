@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
     keycloakify({
       accountThemeImplementation: 'none',
       keycloakVersionTargets: {
-        '22-to-25': 'keycloakify-people-theme.jar',
+        '22-to-25': 'keycloakify-aade-theme.jar',
         'all-other-versions': false,
       },
     }),
