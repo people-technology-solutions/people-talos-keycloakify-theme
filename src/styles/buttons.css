@@ -1,5 +1,6 @@
 /* Main button */
-.btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn,
+.btn-lg {
   border-radius: 1.875rem;
   font-size: 1rem;
   line-height: 1rem;
@@ -8,5 +9,5 @@
 
 /* Main button */
 .pf-c-button.pf-m-primary {
-  background-color: #112d63;
+  background-color: #144E8C;
 }
