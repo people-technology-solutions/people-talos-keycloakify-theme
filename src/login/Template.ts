@@ -57,7 +57,7 @@ export class TemplateComponent {
   page = input<Type<unknown>>();
   userProfileFormFields = input<Type<unknown>>();
 
-  readonly identityUrl = `${import.meta.env.BASE_URL}greece20-eu-funding.svg`;
+  readonly identityUrl = `${import.meta.env.BASE_URL}greece20-eu-funding.png`;
   readonly bodyLogoUrl = `${import.meta.env.BASE_URL}implementing-body-logo.svg`;
 
   readonly fundingStatement =
