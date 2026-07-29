@@ -1,0 +1,75 @@
+/*
+ * Ελλάδα 2.0 / NextGenerationEU visual identity.
+ * Both bars use Pantone 280C (#144E8C) per the Οδηγός Επικοινωνίας, so the
+ * blue-background variant of the lockup is required here — the white-background
+ * version renders dark blue on dark blue.
+ */
+
+.eu-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.eu-page__main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+/*
+ * The default template centres itself over the full viewport height; with the
+ * bars in place it must fill only what is left between them.
+ */
+.eu-page__main .login-pf-page {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.eu-banner,
+.eu-footer {
+  background: #144e8c;
+  color: white;
+  flex: 0 0 auto;
+}
+
+.eu-banner__inner {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 0.75rem 1.5rem;
+}
+
+/* The identity may never be shorter than 1cm (~38px at 96dpi). */
+.eu-banner__identity {
+  height: 40px;
+  width: auto;
+}
+
+/*
+ * Other logos may not exceed the size of the visual identity and may not be
+ * merged into it — hence the gap on .eu-banner__inner.
+ */
+.eu-banner__body-logo {
+  max-height: 40px;
+  width: auto;
+}
+
+.eu-footer__text {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 0.875rem 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .eu-banner__inner {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

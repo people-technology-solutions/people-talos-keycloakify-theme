@@ -1,0 +1,11 @@
+<!--
+  PLACEHOLDER — replace with the logo of the Υπουργείο Ευθύνης / φορέας
+  υλοποίησης, as shown top-left in the guide's website mockup (page 16).
+  If you do not need a second logo, delete this file and remove the
+  .eu-banner__body-logo <img> from src/login/Template.ts.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100" role="img">
+  <rect x="1" y="1" width="298" height="98" fill="none" stroke="#ffffff" stroke-dasharray="6 4" stroke-width="2"/>
+  <text x="150" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">PLACEHOLDER</text>
+  <text x="150" y="68" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Λογότυπο φορέα</text>
+</svg>

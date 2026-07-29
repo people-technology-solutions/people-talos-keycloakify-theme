@@ -1,6 +1,7 @@
 @import "./styles/buttons.css";
 @import "./styles/header.css";
 @import "./styles/form-card.css";
+@import "./styles/eu-branding.css";
 
 body.kcBodyClass {
   background: white;
