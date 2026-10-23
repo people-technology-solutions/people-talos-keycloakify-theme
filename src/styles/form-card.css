@@ -1,0 +1,24 @@
+.kcFormCardClass.card-pf {
+  background: #b3b3b326;
+  border-color: #e6e5e5;
+  border-radius: 1.375rem;
+  border-style: solid;
+  border-width: 0.25rem !important;
+  color: black;
+  max-width: 410px;
+  min-width: 270px;
+  padding: 3.3rem 3.3rem;
+  width: 100%;
+}
+
+.login-pf-page .card-pf {
+  box-shadow: 0 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .login-pf-page .card-pf {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

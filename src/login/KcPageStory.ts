@@ -1,11 +1,11 @@
 import { ChangeDetectorRef, Component, inject, type OnInit, type Type } from '@angular/core';
 import { provideKeycloakifyAngular } from '@keycloakify/angular/login/providers/keycloakify-angular';
-import { TemplateComponent } from '@keycloakify/angular/login/template';
 import { KC_LOGIN_CONTEXT } from '@keycloakify/angular/login/tokens/kc-context';
 import { createGetKcContextMock } from 'keycloakify/login/KcContext';
 import { kcEnvDefaults, themeNames } from '../kc.gen';
 import type { KcContextExtension, KcContextExtensionPerPage } from './KcContext';
 import { classes, doMakeUserConfirmPassword, doUseDefaultCss, getKcPage } from './KcPage';
+import { TemplateComponent } from './Template';
 import { getI18n } from './i18n';
 
 const kcContextExtension: KcContextExtension = {
@@ -48,10 +48,10 @@ export const decorators = (_: unknown, context: StoryContextLike) => ({
 @Component({
   selector: 'kc-page-story',
   template: `@if (pageComponent) {
-    <kc-root
+    <kc-theme-root
       [page]="pageComponent"
       [userProfileFormFields]="userProfileFormFieldsComponent"
-    ></kc-root>
+    ></kc-theme-root>
   }`,
   standalone: true,
   imports: [TemplateComponent],

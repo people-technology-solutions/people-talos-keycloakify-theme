@@ -1,0 +1,18 @@
+@import "./styles/buttons.css";
+@import "./styles/header.css";
+@import "./styles/form-card.css";
+@import "./styles/eu-branding.css";
+
+body.kcBodyClass {
+  background: white;
+}
+
+.login-pf-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

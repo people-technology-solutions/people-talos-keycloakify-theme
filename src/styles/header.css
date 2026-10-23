@@ -1,0 +1,57 @@
+/*
+ * Swap the `HTML Display name` field to:
+ * `<div class="kc-branding"><div class="kc-branding-logo"></div><div class="kc-branding-text">People</div></div>`
+ */
+
+div.kcHeaderWrapperClass {
+  display: none;
+  padding: 0;
+}
+
+#kc-header-wrapper {
+  text-transform: none;
+}
+
+/* Main header (Contains both logo and text) */
+div.kc-branding {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+}
+
+div.kc-branding div.kc-branding-logo {
+  background-image: url("https://www.aade.gr/sites/default/files/inline-images/logo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3.9375rem;
+  width: 14.25rem;
+}
+
+div.kc-branding div.kc-branding-text {
+  color: black;
+}
+
+/* Header inside the form's card */
+.login-pf-page .login-pf-header h1 {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 767px) {
+  #kc-header-wrapper {
+    font-size: 1.75rem;
+    font-weight: normal;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-pf-page .login-pf-page-header {
+    margin-bottom: 0;
+  }
+
+  .login-pf-page .login-pf-header h1 {
+    font-size: 1.25rem;
+  }
+}
